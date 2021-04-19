@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Quiz | Você consegue acertar qual é o nome do animal em inglês?
+    </title>
+  </head>
+  <body>
+    <div class="intro py-3 bg-info text-center">
+      <div class="container">
+        <h2 class="text-Info display-3 my-4">Quiz</h2>
+      </div>
+    </div>
+
+    <div class="result py-4 d-none bg-light text-center">
+      <div class="container lead">
+        <p>Você acertou<span class="text-primary display-4 p-3">0%</span>do Quiz</p>
+      </div>
+    </div>
+
+    <div class="quiz py-4 bg-secondary">
+      <div class="container">
+        <h2 class="my-5 text-white">
+          Você consegue acertar qual o nome do animal em inglês?
+        </h2>
+
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">1. "Cachoro" em inglês: :</p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="A" checked />
+                Cat
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="B" />
+                Dog
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="C" />
+                Cow
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="D" />
+                Monkey
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">2. 'Vaca' em inglês:</p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="A" checked />
+                Bear
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="B" />
+                Chicken
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="C" />
+                Bat 
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="D" />
+                Cow
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">3. "Jacaré" em inglês:</p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="A" checked />
+                Fox
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="B" />
+                Fish
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="C" />
+                Aligator
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="D" />
+                Frog
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">4. "Camelo" em inglês :</p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="A" checked />
+                Bat
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="B" />
+                Camel
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="C" />
+                Dog
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="D" />
+                Cat
+              </label>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button class="btn bg-warning text-light">Enviar</button>
+          </div>
+        </form>
+      </div>
+
+
+    <script src="./app.js"></script>
+  </body>
+</html>
